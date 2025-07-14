@@ -43,3 +43,13 @@ girls={
 print(girls["total"])
 print(girls["score"]["eng"])
 print(girls["score"]["maths"])
+
+# Dictonary Methods
+print(girls.keys())
+print(girls.values())
+print(girls.items())
+girls.get("chem")
+print(girls)
+girls.update({"hindi" : 67})
+print(girls)
+
