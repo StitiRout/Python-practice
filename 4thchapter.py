@@ -25,3 +25,21 @@ print(student["language"])
 print(student["programming"])
 print(info["key "])
 print(info["learning"])
+# null dictionary
+null_dict={}
+print(null_dict)
+
+# Nested python
+girls={
+    "total" : 6,
+    "score" : {
+        "maths" : 82,
+        "phy" :77,
+        "chem" :65,
+        "eng" :89,
+        "pe" : 92
+    }
+}
+print(girls["total"])
+print(girls["score"]["eng"])
+print(girls["score"]["maths"])
