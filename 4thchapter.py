@@ -53,3 +53,23 @@ print(girls)
 girls.update({"hindi" : 67})
 print(girls)
 
+# set in python
+collection ={1,2,3,4,"sita","seetha",5,6,7,8.1,9.7}
+print(collection)
+print(type(collection))
+
+coll={}  # empty dict
+print(type(coll))
+# to convert an emty dictionary to a empty set 
+coll=set()
+print(type(coll))
+
+# set methods
+# collection.add(23)
+# print(collection)
+# collection.remove(23)
+# print(collection)
+collection.clear()
+print(collection)
+# collection.pop()
+# print(collection)
