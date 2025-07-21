@@ -22,3 +22,10 @@ markings.update({"phy":mark2})
 mark3=int(input("Enter chem : "))
 markings.update({"chem":mark3})
 print(markings)
+
+# Figure out a way to store 9 and 9.0 as separate valuess in the set(You can take help of built-in data types)
+values={
+    ("float",9.0),
+    ("int",9)
+}
+print(values)

@@ -65,11 +65,16 @@ coll=set()
 print(type(coll))
 
 # set methods
-# collection.add(23)
-# print(collection)
-# collection.remove(23)
-# print(collection)
+collection.add(23)
+print(collection)
+collection.remove(23)
+print(collection)
 collection.clear()
 print(collection)
-# collection.pop()
-# print(collection)
+collection.pop()
+print(collection)
+collection2={0,9,8,7,6,5,"Ram","Raam",4,3,2,1}
+print(collection.union(collection2))
+print(collection.intersection(collection2))
+
+
