@@ -73,20 +73,37 @@
 
 # break and continue
 # BREAK
-i=1
-while i <=5:
-    print(i)
-    if(i ==4):
-        break
-    i+=1
-print("end of loop")
+# i=1
+# while i <=5:
+#     print(i)
+#     if(i ==4):
+#         break
+#     i+=1
+# print("end of loop")
 
 # CONTINUE
-i=0
-while i <=5:
-    if(i ==4):
-        i+=1
-        continue    
+# i=0
+# while i <=5:
+#     if(i ==4):
+#         i+=1
+#         continue    
         # except 4 all will be print            
+    # print(i)
+    # i+=1
+# print odd number skip even numbers
+# i= 0
+# while i<=10:
+#     if(i%2==0):
+#         i+=1
+#         continue
+#     print(i)
+#     i+=1
+
+#print even skip odd
+i=0
+while i <=10:
+    if(i%2 != 0):
+        i+=1
+        continue
     print(i)
     i+=1
