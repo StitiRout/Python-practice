@@ -74,10 +74,17 @@
 #     print(rupees)
 #     return rupees
 # rupee_converter()
-def show(n):
-    if n==1:
-        return 1
-    else:
-        print(n)
-        show(n-1)
-show(10)
+# def show(n):
+#     if n==1:
+#         return 1
+#     else:
+#         print(n)
+#         show(n-1)
+# show(10)
+def nwe():
+    with open("section.txt","w") as g:
+       g.write("I am a girl")
+       with open("section.txt","r") as g:
+        data2=g.replace("girl","boy")
+        print(data2)
+nwe()
